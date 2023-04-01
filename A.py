@@ -80,7 +80,8 @@ for counter, I, Q, A, B, C, D in problems():
     out_f.write('\n\n')
     out_f.write('\\noindent\\rule{0.5\\textwidth}{1pt}\n')
 
-    out_f.write('\\heiti \\textbf{{({:03d}) {}}} \\songti {{\\color{{gray}} [{}] }}\n'.format(counter, Q, I))
+    # out_f.write('\\heiti \\textbf{{({:03d}) {}}} \\songti {{\\color{{gray}} [{}] }}\n'.format(counter, Q, I))
+    out_f.write('\\heiti ({:03d}) {} \\songti {{\\color{{gray}} [{}] }}\n'.format(counter, Q, I))
     out_f.write('\\begin{itemize}\n')
     out_f.write('\t\\item  {}\n'.format(A))
     out_f.write('\t\\item  {}\n'.format(B))
