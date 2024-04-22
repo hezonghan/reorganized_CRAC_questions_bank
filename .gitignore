@@ -3,5 +3,6 @@
 
 *.aux
 *.log
+*.out
 
 output_2023_0401_2251.tex
